@@ -6,13 +6,16 @@
 - terciária: #3366ff --- 
 */
 
+
+
 * {
-    color: white;
+    color: black;
     font-size: 1em;
 }
 
 html, body, #home {
     height: 100%;
+    /*overflow-x: hidden;*/
 }
 
 body {
@@ -23,6 +26,8 @@ body {
     background-repeat: no-repeat;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+
 
 /************************Barra de navegação*********************/
 nav.navbar-transparent {
@@ -62,6 +67,7 @@ nav.navbar-transparent {
 }
 
 
+
 /************************Capa*********************/
 .capa {
     text-align: center;
@@ -94,12 +100,103 @@ nav.navbar-transparent {
 }
 
 
+
+/************************Carousel*********************/
+.carousel-controle-next, .carousel-controle-prev {
+    width: 5%;
+}
+
+.carousel-item h1 {
+    color: black;
+}
+
+
+
+/************************Estrutura de conteúdos*********************/
+.caixa {
+    padding: 20px 0px;
+}
+
+#servicos {
+    background-color: white;
+}
+
+#servicos h2, h3 {
+    color: #060056;
+}
+
+#recursos h2 {
+    color: red;
+}
+
+#recursos h3 {
+    color: green;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+}
+
+
+
+/************************Rodapé*********************/
+footer {
+    background-color: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+
+
 /************************Tipografia*********************/
 h1 {
     font-weight: bold;
     letter-spacing: -0.05em;
     color: white;
 }
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
 
 /************************Media query*********************/
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -109,6 +206,7 @@ h1 {
     }
     .btn-custom {
         margin: 10px 15px;
+        font-size: 1em;
     }
  }*/
 
