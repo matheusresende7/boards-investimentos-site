@@ -25,6 +25,10 @@
 
 <body>
 
+    
+
+
+
     <header> <!--inicio header-->
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent">
             <div class="container">
@@ -65,6 +69,8 @@
 
 
 
+
+
     <section id="home" class="d-flex"> <!--inicio home-->
         <div class="container align-self-center">
             <div class="row">
@@ -87,12 +93,28 @@
 
 
 
+
+
     <section id="carousel-teste" class="d-flex"> <!--inicio carousel-->
         <div class="container align-self-center">
             <div class="row">
                 <div class="col-md-12 capa">
 
                     <div id="carousel-boards" class="carousel slider" data-ride="carousel">
+
+                        <!--Indicadores-->
+                        <ol class="carousel-indicators">
+
+                            <li class="active" data-target="#carousel-teste" data-slide-to="0"></li>
+                            <li data-target="#carousel-teste" data-slide-to="1"></li>
+                            <li data-target="#carousel-teste" data-slide-to="2"></li>
+                            <li data-target="#carousel-teste" data-slide-to="3"></li>
+                            <li data-target="#carousel-teste" data-slide-to="4"></li>
+                            <li data-target="#carousel-teste" data-slide-to="5"></li>
+
+                        </ol>
+                        <!--Indicadores-->
+
                         <div class="carousel-inner"> <!--Inner-->
 
                             <div class="carousel-item active">
@@ -143,6 +165,7 @@
                         <a href="#carousel-boards" class="carousel-control-next" data-slide="next">
                             <i class="fas fa-angle-right fa-3x"></i>
                         </a>
+                        <!--Controlers-->
 
                     </div>
 
@@ -150,6 +173,8 @@
             </div>
         </div>
     </section> <!--fim carousel-->
+
+
 
 
 
@@ -206,6 +231,8 @@
     </section> <!--fim servicos-->
 
 
+    
+
 
     <section id="recursos" class="caixa"> <!--inicio recursos-->
         <div class="container">
@@ -245,12 +272,16 @@
 
 
 
-    <footer>
-        <div class="container">
-            <div class="row">
 
-                <div class="col-md-2">
-                    <img src="images/logos/logo-512-rounded.png" width="142">
+
+    <footer><!--inicio footer-->
+        <div class="container"><!--inicio container-->
+
+            <div class="row align-items-start"><!--inicio row-->
+
+                <div class="col-md-3">
+                    <img src="images/logos/logo-512-rounded.png" width="80">
+                    <h3>Boards<br>Investimentos</h3>
                 </div>
 
                 <div class="col-md-2">
@@ -281,26 +312,52 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4">
-                    <ul>
-                        <li>
-                            <a href=""><img src="images/logos/logo-512-rounded.png" width="50"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="images/logos/logo-512-rounded.png" width="50"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="images/logos/logo-512-rounded.png" width="50"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="images/logos/logo-512-rounded.png" width="50"></a>
-                        </li>
-                    </ul>
+                <div class="col-md-3">
+                    <div class="row justify-content-end">
+                        <ul>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=boards.boards_investimentos&hl=en_US&gl=US" target="_blank">
+                                    <i class="fab fa-google-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UChU98x0sfRPnz7IvPJFe8qQ" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://matheusresende7.github.io/boards-investimentos-site/" target="_blank">
+                                    <i class="fas fa-laptop"></i>
+                                </a>
+                            </li>       
+                        </ul>
+                    </div>
                 </div>
 
-            </div>
-        </div>
-    </footer>
+            </div><!--fim row-->
+
+            <div class="row align-items-center justify-content-end"><!--inicio row-->
+
+                <div class="col-md-2">           
+                    <a href="https://play.google.com/store/apps/details?id=boards.boards_investimentos&hl=en_US&gl=US" target="_blank">
+                        <img class="stores" src="images/badges-stores/google-play-badge.png" alt="Disponível no Google Play">
+                    </a>            
+                </div>  
+                
+                <div class="col-md-2">                   
+                    <a href="" target="_blank">
+                        <img class="stores" src="images/badges-stores/Download_on_the_App_Store_Badge_PTBR_RGB_blk_092917.svg" alt="Disponível na App Store">
+                    </a> 
+                </div>
+
+            </div><!--fim row-->
+
+            <hr>
+
+            <h5>Todos os direitos reservados. Copyright 2021 © Boards Tech</h5>
+
+        </div><!--fim container-->
+    </footer><!--fim footer-->
 
 
 

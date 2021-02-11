@@ -4,14 +4,19 @@
 - primária: #060056 --- rgba(6, 0, 86)
 - secundária: #0000cc ---
 - terciária: #3366ff --- 
+- cinza claro: #cccccc ---
 */
 
+.border-view {
+    border: red 1px solid;
+}
 
 
-* {
+
+/** {
     color: black;
     font-size: 1em;
-}
+}*/
 
 html, body, #home {
     height: 100%;
@@ -29,7 +34,7 @@ body {
 
 
 
-/************************Barra de navegação*********************/
+/************************Header*********************/
 nav.navbar-transparent {
     background: rgba(6, 0, 86, 0.95);
     padding: 10px 0px;
@@ -64,6 +69,12 @@ nav.navbar-transparent {
 .navbar-light .navbar-toggler {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 0.4);
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.1em;
 }
 
 
@@ -110,6 +121,10 @@ nav.navbar-transparent {
     color: black;
 }
 
+.carousel-indicators {
+    color: black;
+}
+
 
 
 /************************Estrutura de conteúdos*********************/
@@ -143,26 +158,38 @@ nav.navbar-transparent {
 
 
 
-/************************Rodapé*********************/
+/************************Footer*********************/
 footer {
     background-color: black;
     padding: 50px 0 20px 0;
     position: relative;
 }
 
+/*Logo do app*/
+footer h3 {
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    margin: 10px 0;
+}
+
+/*Itens footer*/
 footer h4 {
-    color: #919496;
-    font-size: 0.8em;
-    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: start;
 }
 
 footer .navbar-nav a {
     color: white;
     font-size: 0.8em;
+    margin: 0;
+    padding: 0;
 }
 
 footer .navbar-nav a:hover {
-    color: #9bf0e1;
+    color: #cccccc;
     text-decoration: none;
 }
 
@@ -171,9 +198,42 @@ footer ul {
 }
 
 footer ul li {
-    float: right;
-    margin: 0 5px;
+    margin: 0 30px 0 0;
+    display: inline;
 }
+
+/*Apps e redes sociais*/
+footer i {
+    color: white;
+    font-size: 25px;
+}
+
+footer i:hover {
+    color: #cccccc;
+}
+
+/*Download dos apps nas lojas*/
+footer .stores {
+    margin: 20px;
+    height: 50px;
+}
+
+/*Linha divisoria*/
+footer hr {
+    background-color: white;
+    width: 100%;
+    height: 0.5px;
+    margin: 40px 0;
+}
+
+/*Direitos autorais*/
+footer h5 {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 20px;
+}
+
 
 
 
