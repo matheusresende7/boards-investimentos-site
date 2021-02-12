@@ -18,7 +18,7 @@
     font-size: 1em;
 }*/
 
-html, body, #home {
+html, body {
     height: 100%;
     /*overflow-x: hidden;*/
 }
@@ -79,11 +79,35 @@ header h1 {
 
 
 
-/************************Capa*********************/
-.capa {
-    text-align: center;
+/************************Carousel*********************/
+.carousel-controle-next, .carousel-controle-prev {
+    width: 5%;
 }
 
+.carousel-item h1 {
+    color: black;
+}
+
+.carousel-indicators {
+    color: black;
+}
+
+
+
+/************************splash-screen*********************/
+#splash-screen {
+    background-color: #f0f0f0;
+    padding: 120px 0 0 0;
+}
+
+/*Textos*/
+#splash-screen h2 {
+    color: #060056;
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+/*Botoes*/
 .btn-custom {
     border-radius: 500px;
     padding: 10px 25px;
@@ -112,48 +136,90 @@ header h1 {
 
 
 
-/************************Carousel*********************/
-.carousel-controle-next, .carousel-controle-prev {
-    width: 5%;
-}
-
-.carousel-item h1 {
-    color: black;
-}
-
-.carousel-indicators {
-    color: black;
-}
-
-
-
-/************************Estrutura de conteúdos*********************/
-.caixa {
-    padding: 20px 0px;
-}
-
-#servicos {
+/************************Renda fixa simulação*********************/
+#simulacao-renda-fixa {
     background-color: white;
+    padding: 80px 0px;
 }
 
-#servicos h2, h3 {
+/*Textos*/
+#simulacao-renda-fixa h2 {
     color: #060056;
+    font-size: 4em;
+    margin: 50px 0;
 }
 
-#recursos h2 {
-    color: red;
+#simulacao-renda-fixa h3 {
+    color: #060056;
+    font-size: 1.3em;
+    margin: 50px 0;
+    letter-spacing: 0.1em;
 }
 
-#recursos h3 {
-    color: green;
+
+
+/************************Câmbio simulação*********************/
+#cambio-simulacao {
+    background-color: #060056;
+    padding: 40px 0px;
 }
 
-.albuns {
-    padding: 10px 0;
+/*Textos*/
+#cambio-simulacao h2 {
+    color: white;
+    font-size: 4em;
+    margin: 50px 0;
 }
 
-.rotacionar {
-    transform: rotate(30deg);
+#cambio-simulacao h3 {
+    color: white;
+    font-size: 1.3em;
+    margin: 50px 0;
+    letter-spacing: 0.1em;
+}
+
+
+
+/************************comparacao-renda-fixa*********************/
+#comparacao-renda-fixa {
+    background-color: white;
+    padding: 40px 0px;
+}
+
+/*Textos*/
+#comparacao-renda-fixa h2 {
+    color: #060056;
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+#comparacao-renda-fixa h3 {
+    color: #060056;
+    font-size: 1.3em;
+    margin: 50px 0;
+    letter-spacing: 0.1em;
+}
+
+
+
+/************************Youtube video*********************/
+#youtube-video {
+    background-color: #f0f0f0;
+    padding: 80px 0px;
+}
+
+/*Textos*/
+#youtube-video h2 {
+    color: #060056;
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+#youtube-video h3 {
+    color: #060056;
+    font-size: 1.3em;
+    margin: 50px 0;
+    letter-spacing: 0.1em;
 }
 
 
