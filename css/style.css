@@ -37,7 +37,7 @@ body {
 /************************Header*********************/
 nav.navbar-transparent {
     background: rgba(6, 0, 86, 0.95);
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -56,16 +56,6 @@ nav.navbar-transparent {
     border-bottom: white 2px solid;
 }
 
-.navbar-light .navbar-nav .nav-link:active {
-    color: #060056;
-    background-color: white;
-    font-weight: bold;
-    padding: 5px 10px;
-    margin: 10px;
-    border-radius: 20px;
-    border-bottom: transparent 2px solid;
-}
-
 .navbar-light .navbar-toggler {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 0.4);
@@ -73,23 +63,8 @@ nav.navbar-transparent {
 
 header h1 {
     color: white;
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 0.1em;
-}
-
-
-
-/************************Carousel*********************/
-.carousel-controle-next, .carousel-controle-prev {
-    width: 5%;
-}
-
-.carousel-item h1 {
-    color: black;
-}
-
-.carousel-indicators {
-    color: black;
 }
 
 
@@ -115,23 +90,23 @@ header h1 {
 }
 
 .btn-azul {
-    background-color: #060056;
-    color: white;
-}
-
-.btn-azul:hover {
     background-color: #0000cc;
     color: white;
 }
 
+.btn-azul:hover {
+    background-color: #060056;
+    color: white;
+}
+
 .btn-branco {
-    color: #060056;
-    border: #060056 2px solid;
+    color: white;
+    border: white 2px solid;
 }
 
 .btn-branco:hover {
-    background-color: #060056;
-    color: white;
+    background-color: white;
+    color: #060056;
 }
 
 
@@ -212,7 +187,6 @@ header h1 {
 #youtube-video h2 {
     color: #060056;
     font-size: 4em;
-    margin: 50px 0;
 }
 
 #youtube-video h3 {
@@ -243,20 +217,17 @@ footer h3 {
 footer h4 {
     color: white;
     font-size: 1em;
+    letter-spacing: 0.05em;
     margin-bottom: 20px;
     text-align: start;
 }
 
-footer .navbar-nav a {
-    color: white;
-    font-size: 0.8em;
-    margin: 0;
-    padding: 0;
+footer h4:hover {
+    color: #cccccc;
 }
 
-footer .navbar-nav a:hover {
-    color: #cccccc;
-    text-decoration: none;
+footer a:hover {
+    text-decoration:none; 
 }
 
 footer ul {
@@ -280,7 +251,7 @@ footer i:hover {
 
 /*Download dos apps nas lojas*/
 footer .stores {
-    margin: 20px;
+    margin: 0px;
     height: 50px;
 }
 
